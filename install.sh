@@ -1,4 +1,3 @@
 #!/bin/bash
-dir="/home/user/ton"
-sed -i "s/GIVER/$1/" $dir/tonminer
+sed -i "s/GIVER/$1/" /home/user/ton/tonminer
 $dir/tonmining
