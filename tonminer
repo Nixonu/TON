@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 gpuId=$1
-giver="kf9iWhwk9GwAXjtwKG-vN7rmXT3hLIT23RBY6KhVaynRrIK7"
+giver="kf_NSzfDJI1A3rOM0GQm7xsoUXHTgmdhN5-OrGD8uwL2JMvQ"
 wallet="EQAfEzDbFCkSttDaqyu7MKCS1drGR7vPQ3nRZCRiFTkoRTUD"
 dir="/home/user/ton"
 miner="$dir/tonlib-cuda-cli"
