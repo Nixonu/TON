@@ -15,7 +15,7 @@ dir="/home/user/ton"
 #tar -xf $dir/minertools-cuda-ubuntu-18.04-x86-64.tar.gz -C $dir
 #tar -xf $dir/minertools-opencl-ubuntu-18.04-x86-64.tar.gz -C $dir
 #chmod +x $dir/ton*
-chmod +x $dir/screen-kill
+#chmod +x $dir/screen-kill
 sed -i "s/GIVER/$1/" $dir/tonminer
-miner stop
+#miner stop
 $dir/tonmining
