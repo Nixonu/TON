@@ -1,0 +1,11 @@
+[Unit]
+Description=TON miner
+After=network.target
+[Service]
+RestartSec=30
+Restart=always
+WorkingDirectory=/home/user
+ExecStart=/home/user/danila-miner run https://pool.services.tonwhales.com КОШЕЛЁК
+[Install]
+WantedBy=multi-user.target
+Alias=miner.service
